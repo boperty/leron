@@ -1,0 +1,76 @@
+.cookiesText {
+animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    -webkit-animation-name: slideUp;
+    animation-name: slideUp;
+    background: #fff;
+    color: #999;
+    font-size: 16px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    padding: 10px 20px;
+    border-top: 1px solid #d2d2d2 !important;
+    z-index: 9999999;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
+}
+.cookiesText .cookiestextIn {
+    display: table;
+    width: 100%; 
+    }
+
+.cookiesText .c-left {
+
+    width: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    color: #333; 
+
+}
+.cookiesText .c-right {
+
+    width: 40%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.cookiesText .confirm {  
+    display: block;
+    float: right;
+    max-width: 120px;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 1px 30px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    background: #01bcc1;
+}
+
+.cookiesText .confirm a {
+    color:white;
+}
+
+.cookiesText .moreinfo {  
+display: block;
+    float: right;
+    max-width: 120px;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 0 20px;
+}

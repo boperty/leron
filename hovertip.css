@@ -1,0 +1,75 @@
+
+
+.hovertip,.hovertip2,.hoverbox  {
+	position: absolute;
+	z-index: 9;
+	display: none;
+	width: 400px;
+  max-width: calc(100% - 40px);
+	border: 1px solid #e5d5a8;
+	background: #f7f4d2;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.13);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.13);
+  text-align: center;
+  padding: 20px !important;
+	}
+
+.hovertip_target:hover {text-decoration: none;  cursor:help;}
+
+
+
+
+
+.hoverbox {padding: 0 !important; font-family: Open Sans, sans-serif !important; max-width: 100%;}
+
+.hoverbox.ui-dialog {top: 0px !important;}
+
+.hoverbox .ui-dialog-titlebar.ui-widget-header  {background: #008085 !important; font-size: 18px; border: none; color: #ffffff; font-weight: 600;}
+
+.hoverbox .ui-dialog-titlebar.ui-widget-header a.ui-dialog-titlebar-close {
+	right: 0 !important;
+	top: 0 !important;
+	width: 44px !important;
+	margin: 0 !important;
+	height: 100% !important;
+  transition: all 0.2s ease-in 0s;
+}
+
+.hoverbox .ui-dialog-titlebar.ui-widget-header a.ui-dialog-titlebar-close span { background: none !important; display: none !important;}
+
+.hoverbox .ui-dialog-titlebar.ui-widget-header a.ui-dialog-titlebar-close::before {
+	content: "\F109";
+	font-family: fontello;
+	font-size: 30px;
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -53%);
+}
+
+.hoverbox .ui-dialog-titlebar.ui-widget-header a.ui-dialog-titlebar-close.ui-state-hover {background: none !important; border: none !important;}
+.hoverbox .ui-dialog-titlebar.ui-widget-header a.ui-dialog-titlebar-close.ui-state-hover:before {xtext-shadow: 4px 4px 2px rgba(247, 244, 210, 1); background: none !important; border: none !important;}
+.hoverbox .ui-dialog-titlebar.ui-widget-header a.ui-dialog-titlebar-close:hover:before {text-shadow: 0px 0px 1px rgba(247, 244, 210, 1);}
+
+.ui-widget-content .ui-icon {
+	background-image: url("");
+}
+
+.ui-dialog .ui-resizable-se {
+	width: 20px;
+	height: 20px;
+	right: -5px;
+	bottom: -5px;
+	background-position: -80px -224px;
+  
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: .4em 44px;
+}
+
+.ui-dialog .ui-dialog-title {width: 100%;}

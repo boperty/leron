@@ -1,0 +1,618 @@
+
+#VecerniDoruceni {
+    width: 100%;
+    padding: 0;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+#VecerniDoruceni h2 {color: #808080;}
+
+    #VecerniDoruceni p {
+      padding: 0px 0 10px 0;
+      margin: 0;
+    }
+
+#VecerniDoruceni label {
+	padding: 2px 5px 0 0px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
+    #VecerniDoruceni .inputPsc {
+        width: 220px; vertical-align: middle;
+    }
+
+    #VecerniDoruceni .form {
+       margin-top: 20px;
+    }
+    
+    #vecerniDoruceniResult {margin-top: 20px;}
+
+    #VecerniDoruceni .btn {
+      display: inline-block;
+      background-color: rgba(1, 188, 193, 0.9);
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 40px;
+      padding: 0 25px;
+      border: 0;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+
+
+    #VecerniDoruceni .btnSmall {
+        border: 1px solid #2f4581;
+        height: 24px;
+        background-color: #fecf43;
+        cursor: pointer;
+        color: #2f4581;
+        font-size: 11px;
+        float: none;
+    }
+
+    #VecerniDoruceni p.err {
+        color: rgba(196, 3, 100, 1);
+        font-weight: 600;
+    }
+
+VecerniDoruceni p.err a {
+    color: red;
+    text-decoration: underline
+}
+
+#VecerniDoruceni p.war {
+	color: #01bcc1;
+	font-weight: 600;
+}
+
+
+#naPoste {
+
+    margin-bottom: 50px;
+}
+
+#balikovnaWhisperer {
+    width: 200px;
+    background: white;
+}
+
+#balikovnaUL {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.liBal {
+    list-style-type: none;
+    margin-bottom: 6px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.ForClose {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    float: left;
+    clear: both
+}
+
+    .ForClose .btnBcg {
+        position: relative;
+        top: 8px;
+        padding: 2px 0 5px 34px;
+        display: block;
+        float: left;
+        text-decoration: underline;
+        background: url("") no-repeat;
+    }
+
+        .ForClose .btnBcg:hover {
+            text-decoration: none
+        }
+
+#naPoste img {
+    border: none;
+}
+
+    #naPoste img.select {
+        border: none;
+        position: relative;
+        top: 5px;
+    }
+
+#naPoste p {
+  padding-left: 0; padding-right: 0;
+}
+
+    #naPoste p.help {
+        line-height: 2.2
+    }
+
+        #naPoste p.help img {
+            margin-bottom: -5px;
+            padding-right: 4px
+        }
+
+        *html #naPoste p.help img {
+            margin-bottom: 0px;
+            padding-right: 4px;
+            margin-top: 4px;
+        }
+
+    #naPoste p.err {
+        color: red;
+        font-weight: bold;
+        width: 100%;
+        text-align: center
+    }
+
+    #naPoste p.war {
+        color: #ffb400;
+        font-weight: bold;
+        width: 100%;
+        text-align: center
+    }
+
+    #naPoste p.lnkhome {
+        text-align: center;
+    }
+
+#naPoste a.lnkhome {
+    font-size: 15px;
+    font-weight: bold;
+    color: #304385;
+}
+
+    #naPoste a.lnkhome:hover {
+        font-size: 15px;
+        font-weight: bold;
+        color: #8CF500;
+    }
+
+    #naPoste a.lnkhome:visited {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.cl {
+    clear: both;
+}
+
+.naPosteTop {
+    width: 650px;
+    margin: 10px auto 0 auto;
+}
+
+*html .naPosteTop {
+    width: 600px;
+    margin: 10px auto 0 auto;
+}
+
+    .naPosteTop a {
+        color: #304385
+    }
+
+        .naPosteTop a:hover {
+            color: #fecf43
+        }
+
+#naPoste hr {
+    margin: 5px 0;
+    border: none;
+    background: #cccccc;
+    height: 1px
+}
+
+#naPoste label {}
+
+
+
+    #naPoste table td form {
+        height: 24px;
+        padding: 0;
+        margin: 0
+    }
+
+#naPoste .inputPsc {
+    width: 80px; vertical-align: middle; margin-right: 20px;
+}
+
+#naPoste .inputMesto {
+    width: 200px; margin-right: 20px; vertical-align: middle; 
+}
+
+
+
+
+
+
+
+#naPosteBalikovna img {
+    border: none;
+}
+
+    #naPosteBalikovna img.select {
+        border: none;
+        position: relative;
+        top: 5px;
+    }
+
+#naPosteBalikovna p {
+
+}
+
+    #naPosteBalikovna p.help {
+
+    }
+
+        #naPosteBalikovna p.help img {
+            margin-bottom: -5px;
+            padding-right: 4px
+        }
+
+        *html #naPosteBalikovna p.help img {
+            margin-bottom: 0px;
+            padding-right: 4px;
+            margin-top: 4px;
+        }
+
+    #naPosteBalikovna p.err {
+        color: red;
+        font-weight: bold;
+        width: 100%;
+        text-align: center
+    }
+
+    #naPosteBalikovna p.war {
+        color: #ffb400;
+        font-weight: bold;
+        width: 100%;
+        text-align: center
+    }
+
+    #naPosteBalikovna p.lnkhome {
+        text-align: center;
+    }
+
+#naPosteBalikovna a.lnkhome {
+    font-size: 15px;
+    font-weight: bold;
+    color: #304385;
+}
+
+    #naPosteBalikovna a.lnkhome:hover {
+        font-size: 15px;
+        font-weight: bold;
+        color: #8CF500;
+    }
+
+    #naPosteBalikovna a.lnkhome:visited {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.cl {
+    clear: both;
+}
+
+.naPosteTop {
+    width: 650px;
+    margin: 10px auto 0 auto;
+}
+
+*html .naPosteTop {
+    width: 600px;
+    margin: 10px auto 0 auto;
+}
+
+    .naPosteTop a {
+        color: #304385
+    }
+
+        .naPosteTop a:hover {
+            color: #fecf43
+        }
+
+#naPoste hr {
+    margin: 5px 0;
+    border: none;
+    background: #cccccc;
+    height: 1px
+}
+
+
+#naPoste table {
+    width: 100%;
+    empty-cells: show;
+    table-layout: auto;
+}
+
+    #naPoste table td, #naPoste table th {
+        border-bottom: 1px solid #e6e6e6;
+        border-top: 0px solid;
+        border-left: 0px solid;
+        border-right: 0px solid;
+        padding: 4px 10px 4px 0;
+        
+    }
+
+    #naPoste table th {
+        text-align: left;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    #naPoste table tbody tr td:nth-of-type(3) {width:400px; padding: 4px 10px 4px 0;}
+    #naPoste table tbody tr td:nth-of-type(4) {width:80px; padding: 4px 10px 4px 0;}
+    #naPoste table tbody tr td:last-of-type,
+    #naPoste table tbody tr th:last-of-type {width:120px; text-align: right; padding-right: 0;}
+
+    #naPoste table td form {
+        height: 24px;
+        padding: 0;
+        margin: 0
+    }
+    
+    #napostuSelectedDiv {margin-top: 2px !important;}
+
+
+#naPoste .form {}
+
+
+#naPoste .btn {
+display: inline-block;
+background-color: rgba(1, 188, 193, 0.9);
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+line-height: 40px;
+padding: 0 25px;
+border: 0;
+cursor: pointer;
+vertical-align: middle;
+}
+
+
+#naPoste .btnSmall {
+  display: inline-block;
+	background-color: rgba(1, 188, 193, 0.9);
+	color: #fff;
+	text-decoration: none;
+	line-height: 24px;
+	padding: 0 25px ;
+}
+
+
+
+/*.naPosteTop {
+    width: 650px;
+    margin: 10px auto 0 auto;
+}
+
+*html .naPosteTop {
+    width: 600px;
+    margin: 10px auto 0 auto;
+}
+
+    .naPosteTop a {
+        color: #304385
+    }
+
+        .naPosteTop a:hover {
+            color: #fecf43
+        }*/
+
+#naPosteBalikovna hr {
+    margin: 5px 0;
+    border: none;
+    background: #cccccc;
+    height: 1px
+}
+
+#naPosteBalikovna label {
+    padding: 0 5px 0 15px
+}
+
+#naPosteBalikovna table {
+    width: 100%;
+    font-size: 12px;
+    color: black;
+    empty-cells: show
+}
+
+    #naPosteBalikovna table td, #naPosteBalikovna table th {
+        border-bottom: 1px solid #e6e6e6;
+        border-top: 0px solid;
+        border-left: 0px solid;
+        border-right: 0px solid;
+        padding: 4px 2px;
+    }
+
+    #naPosteBalikovna table th {
+        text-align: left;
+        font-weight: 600;
+
+    }
+
+    #naPosteBalikovna table td form {
+        height: 24px;
+        padding: 0;
+        margin: 0
+    }
+
+
+
+#naPosteBalikovna .inputMesto {
+    width: 49%; min-width: 558px;
+}
+
+#naPosteBalikovna .inputPsc {
+    width: 80px
+}
+
+
+#naPosteBalikovna .btn {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    color: #FFF;
+    background: url("") repeat-x !important;
+}
+
+    #naPosteBalikovna .btn span {
+        display: inline-block;
+        background: url("") no-repeat;
+    }
+
+        #naPosteBalikovna .btn span span {
+            height: 20px;
+            padding: 5px 8px 0 7px;
+            display: inline-block;
+            background: url("") no-repeat right;
+        }
+
+#naPosteBalikovna .btnSmall {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    text-align: center !important;
+    color: #FFF;
+    background: url("") repeat-x !important;
+}
+
+    #naPosteBalikovna .btnSmall span {
+        padding: 0;
+        display: inline-block;
+        background: url("") no-repeat;
+    }
+
+        #naPosteBalikovna .btnSmall span span {
+            height: 20px;
+            padding: 5px 8px 0 7px;
+            display: inline-block;
+            background: url("") no-repeat right;
+        }
+
+.popisek {
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    z-index: 100;
+    background: white;
+    border: 1px solid #314584;
+    color: #000;
+    font-size: 10px;
+    padding: 10px;
+    max-width: 250px; /*min-height: 60px;*/
+    text-align: left;
+    line-height: 1.3;
+}
+
+*html .popisek {
+    width: 250px;
+}
+
+    .popisek table, .popisek p {
+        font-size: 12px;
+    }
+
+        .popisek table td {
+            padding: 4px;
+            text-align: center
+        }
+
+        .popisek table th {
+            padding: 4px;
+            text-align: left
+        }
+
+.ui-autocomplete {
+    text-align: left
+}
+
+.ui-menu-item {
+    font-size: 12px;
+}
+
+.ui-menu-item a {
+    font-size: 12px;
+}
+
+#_pResultSelected {
+    width: 100%;
+    float: left
+}
+
+    #_pResultSelected div a {
+        text-decoration: underline;
+        color: #333
+    }
+    
+        #_pResultSelected h2 {
+        color: #808080
+    }
+
+#balikNaPostu .title {
+    float: left;
+    width: 100%
+}
+
+.ForClose a {
+    cursor: pointer
+}
+
+
+
+.StockNotValid {
+    width: 100%;
+    float: left;
+    background-color: #F2467F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    padding: 25px 0px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+span.notValidStockItem {
+    color: #F2467F;
+    display: block;
+    font-weight: normal;
+    font-family: Trebuchet MS
+}
+
+.xerrValid {
+    background-color: #F2467F;
+}
+
+.validErrExclam {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    color: #F2467F;
+    float: right;
+    width: auto;
+    padding-right: 3px
+}
