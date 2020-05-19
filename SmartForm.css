@@ -1,0 +1,59 @@
+.gwt-SuggestBox {
+}
+.gwt-SuggestBoxPopup {
+  margin-left: 0px;
+  border-color: #888;
+  border-style: solid;
+  border-width: 1px;
+  z-index: 100;
+}
+
+.gwt-SuggestBoxPopup div table {
+    margin: 0px;
+    border-spacing: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    table-layout: auto;
+}
+
+.smartform-instance div table{
+    width: 100%;
+    table-layout: auto;
+}
+
+.gwt-SuggestBoxPopup .item {
+  padding: 4px 6px 3px 6px;
+  color: #424242;
+  cursor: default;
+  z-index: 100;
+}
+
+.gwt-SuggestBoxPopup .item-selected {
+  background: #b7d6f6;
+}
+.gwt-SuggestBoxPopup .suggestPopupContent {
+  background: white;
+}
+
+.gwt-SuggestBoxPopup td, .gwt-SuggestBoxPopup div{
+  border: none;
+  padding: 0px;
+  text-align: left;
+}
+
+.smartform-statusBox {
+	padding: 5px;
+}
+.smartform-statusBox * {
+	vertical-align: top;
+	padding: 0px 5px;
+}
+
+.gwt-Anchor-suggestLink {
+}
+
+tr.suggestPopupTop, tr.suggestPopupBottom, td.suggestPopupMiddleLeft, td.suggestPopupMiddleRight {
+	display: none !important;
+}
+

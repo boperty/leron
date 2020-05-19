@@ -1,0 +1,37 @@
+@import "screen-1.css";
+
+* {
+	background:none !important;
+}
+.LogoPrint { display:block; }
+input, 
+textarea, 
+select,
+.setUp,
+.userInfo,
+#xmenu,
+.searchBox,
+.multiLang,
+.multiCurr,
+#basketInfo,
+.Detail_info .Buy,
+.detailInfo .watchDogButton,
+.SendLink,
+.sendPrint,
+.Buy,
+.absdiscount,
+.discount,
+.userrating,
+.detailLinks,
+#column1,
+#column3,
+#containerFooter,
+#containerFooter .MenuF,
+.LinkEx  { display:none }
+text-align: left !important; float: left;margin:0 !important; padding: 0 !important}
+#containerFooter a {height: 34px; width: 213px; margin: 0 35px 0 0; display: block; float: left}
+#containerFooter div {padding-right: 10px; text-align: left; color: #BCBDB3}
+#column2 {left:20px}
+.containerHeader {background:url("bg-containerHeader.jpg") no-repeat scroll 0 0 transparent !important;}
+#containerBody {width:550px}
+h1 {color: #000000 !important;} 
